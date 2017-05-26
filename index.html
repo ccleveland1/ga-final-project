@@ -7,22 +7,82 @@
     <meta name="keywords" content="keywords, go, here">
     <link rel="stylesheet" href="styles/final_project.css">
   </head>
-  <body>
+  <body id="home">
+   <section id="section1" class="full-height full-background">
     <header>
       <h1 class="logo">FOREST // NATURE // LOVE</h1>
     </header>
-    <div class="options">
-      <h2 id="cta">Where do you want to go?</h2>
-       <a href="index_forest.html" class="btn">Forest<span class="arrow">❯</span></a>
+    <nav class="nav">
+     <h2 id="cta">Where do you want to go?</h2>
+     <ul>
+       <li class="active"><a data-action="jump-section" id="link2" href="#section2" class="btn" >Forest<span class="arrow" >❯</span></a></li>
        <br />
-       <a href="index_river.html" class="btn btn-learn">River<span class="arrow">❯</span></a>
+       <li><a data-action="jump-section" id="link3" href="#section3" class="btn btn-learn" >River<span class="arrow" >❯</span></a></li>
        <br />
-       <a href="index_grasslands.html" class="btn btn-learn">Grasslands<span class="arrow">❯</span></a>
+       <li><a data-action="jump-section" id="link4" href="#section4" class="btn btn-learn" >Grasslands<span class="arrow">❯</span></a></li>
        <br />
-       <a href="index_coast.html" class="btn btn-learn">Coast<span class="arrow">❯</span></a>
+       <li><a data-action="jump-section" id="link5" href="#section5" class="btn btn-learn">Coast<span class="arrow">❯</span></a></li>
+       <br />
+     </ul>
+    </nav>
+   </section>
+   <section  id="section2" class="full-height full-background">
+    <div class="nav">
+      <h3 id="cta">Welcome to the Forest</h3>
+       <a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a>
+    </div>
+    <div class="overlapping-box-left">
+      <div class="text">
+       <h4>Life Within a Redwood Tree</h4>
+       Every year, redwood trees shed their foliage. Each year, redwoods shed their foliage.
+       <br />
+       While some foliage falls to the ground, other foliage accumulates on large branches of the redwood and decomposes there into an organic soil called "<b>canopy soil</b>".
+       <br />
+       This creates a “mat”, high in the trees that allows a surface for plants and animals to congregate.
+       <br />
+       Seeds of plants and spores of fungi colonize this soil, creating a plant community high in the canopy of redwood trees. Plants that grow on trees are called <b>epiphytes</b>.
+       <br /> 
+       Since redwoods can live for thousands of years, this allowed for a very complex ecosystem of epiphytes and animal species to be created.
+       Redwoods are so immense that large plants and even trees can grow in their canopy!
+       </p>
+     </div>
+    </div>
+    <div class="overlapping-box-right">
+      <div class="text">
+        <h4>Life on the Rooftops of Redwoods</h4>
+        The rooftops of redwoods are also extremely vital for many birds who use it for nesting purposes.
+        <br />
+        These include the Peregrine Falcon (Falco peregrinus), Bald Eagle (Haliaeetus leucocepahlus) Marbled Murrelet (Brachyramphus marmoratus), Northern Spotted Owl (Strix occidentalis caurina) and Fisher (Martes pennanti).
+        <br />It is also possible that the California Condor(the largest flying bird) could have used these trees for nesting as well. It was documented that these birds used hollowed out sequoia trees in the sierra nevadas as nesting since they survived their longest.
+        <br />
+        Now, nearly extinct, it is vital that we preserve as much of their habitat as possible.
+      </div>
+    </div>
+   </section>
+   <section id="section3" class="full-height full-background">
+    <div class="nav">
+      <h3 class="river" id="cta">Welcome to the River</h3>
+       <a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a>
        <br />
     </div>
+   </section>
+   <section id="section4" class="full-height full-background">
+    <div class="nav">
+      <h3 id="cta">Welcome to the Grassland</h3>
+       <a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a>
+       <br />
+    </div>
+   </section>
+   <section id="section5" class="full-height full-background">
+    <div class="nav">
+      <h3 id="cta">Welcome to the Coast</h3>
+       <a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a>
+       <br />
+    </div>
+   </section>
   </body>
+   <script src="scripts/jquery-3.2.1.min.js"></script>
+   <script src="scripts/final_project.js"></script>
 </html>
     <!--
     <h2 class="canopy-logo">Explore the habitat within Coastal Redwoods</h2>

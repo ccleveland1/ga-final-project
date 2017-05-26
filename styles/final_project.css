@@ -10,11 +10,6 @@ header{
   padding: 25px 0;
   overflow: hidden;
 }
-body{
-  background: url("https://static.pexels.com/photos/38886/pexels-photo-38886.jpeg");
-  background-size: cover;
-  overflow: hidden;
-}
 h2 {
   font-size: 1.2em;
   font-weight: normal;
@@ -26,10 +21,87 @@ h2 {
   font-family: sans-serif;
   margin-top: -40px;
 }
+h3{
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  color: gray;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: -40px;
+}
+.river{
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: -40px;
+}
+ul li{
+  list-style: none;
+}
+.tab{
+  margin-left: 10%;
+}
+#section1{
+  background: url("../images/home.jpg");
+  background-size: cover;
+}
+#section2{
+  background: url("../images/forest.jpg");
+  background-size: cover;
+}
+#section3{
+  background: url("../images/river.jpg");
+  background-size: cover;
+}
+#section4{
+  background: url("../images/grasslands.jpg");
+  background-size: cover;
+}
+#section5{
+  background: url("../images/coast.jpg");
+  background-size: cover;
+}
+.full-height{
+  height: 100vh;
+}
+.full-background{
+  background-size: cover;
+}
 #cta{
   padding-bottom: 20px;
 }
-.options{
+.text{
+  font-family: sans-serif;
+  color: gray;
+}
+.overlapping-box-left{
+  float: left;
+  width: 25%;
+  margin: 75 37px;
+  padding: 1%;
+  position: absolute;
+  border: 1px solid grey;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+} 
+.overlapping-box-right{
+  float: right;
+  width: 25%;
+  margin: 75 37px;
+  padding: 1%;
+  border: 1px solid grey;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+}
+.nav{
   text-align: center;
 }
 .btn {

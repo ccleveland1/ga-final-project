@@ -11,7 +11,7 @@ header{
   overflow: hidden;
 }
 body{
-  background: url("https://www.happywall.co.uk/uploads/galleri/727/cloudy_forest_gallery.jpg");
+  background: url("../images/forest.jpg");
   background-size: cover;
   overflow: hidden;
   padding: absolute;
