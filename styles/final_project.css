@@ -49,25 +49,24 @@ ul li{
 .tab{
   margin-left: 10%;
 }
-#section1{
-  background: url("../images/home.jpg");
+.project-container section {
+  background-attachment: fixed;
   background-size: cover;
+}
+#section1{
+  background-image: url("../images/home.jpg");
 }
 #section2{
-  background: url("../images/forest.jpg");
-  background-size: cover;
+  background-image: url("../images/forest.jpg");
 }
 #section3{
-  background: url("../images/river.jpg");
-  background-size: cover;
+  background-image: url("../images/river.jpg");
 }
 #section4{
-  background: url("../images/grasslands.jpg");
-  background-size: cover;
+  background-image: url("../images/grasslands.jpg");
 }
 #section5{
-  background: url("../images/coast.jpg");
-  background-size: cover;
+  background-image: url("../images/coast.jpg");
 }
 .full-height{
   height: 100vh;
@@ -85,8 +84,8 @@ ul li{
 .overlapping-box-left{
   float: left;
   width: 25%;
-  margin: 75 37px;
   padding: 1%;
+  margin: 50px 25px;
   position: absolute;
   border: 1px solid grey;
   background: rgba(255,255,255,.8);
@@ -95,12 +94,23 @@ ul li{
 .overlapping-box-right{
   float: right;
   width: 25%;
-  margin: 75 37px;
+  margin: 50px 25px;
   padding: 1%;
   border: 1px solid grey;
   background: rgba(255,255,255,.8);
   box-shadow: 0 0 5px rgba(0, 0, 0, .75);
 }
+.overlapping-box-left2{
+  width: 25%;
+  margin: 75px 37px;
+  padding: 20px;
+  position: absolute;
+  border: 1px solid grey;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+  top: 1575px;
+  left: 50px;
+} 
 .nav{
   text-align: center;
 }

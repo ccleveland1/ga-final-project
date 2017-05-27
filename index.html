@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/final_project.css">
   </head>
   <body id="home">
+  <div class="project-container">
    <section id="section1" class="full-height full-background">
     <header>
       <h1 class="logo">FOREST // NATURE // LOVE</h1>
@@ -32,8 +33,8 @@
        <a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a>
     </div>
     <div class="overlapping-box-left">
-      <div class="text">
        <h4>Life Within a Redwood Tree</h4>
+       <div class="text">
        Every year, redwood trees shed their foliage. Each year, redwoods shed their foliage.
        <br />
        While some foliage falls to the ground, other foliage accumulates on large branches of the redwood and decomposes there into an organic soil called "<b>canopy soil</b>".
@@ -48,8 +49,8 @@
      </div>
     </div>
     <div class="overlapping-box-right">
-      <div class="text">
         <h4>Life on the Rooftops of Redwoods</h4>
+        <div class="text">
         The rooftops of redwoods are also extremely vital for many birds who use it for nesting purposes.
         <br />
         These include the Peregrine Falcon (Falco peregrinus), Bald Eagle (Haliaeetus leucocepahlus) Marbled Murrelet (Brachyramphus marmoratus), Northern Spotted Owl (Strix occidentalis caurina) and Fisher (Martes pennanti).
@@ -62,24 +63,58 @@
    <section id="section3" class="full-height full-background">
     <div class="nav">
       <h3 class="river" id="cta">Welcome to the River</h3>
-       <a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a>
+      <ul>
+       <li><a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a></li>
        <br />
+       <li class="active"><a data-action="jump-section" id="link2" href="#section2" class="btn" >Forest<span class="arrow" >❯</span></a></li>
+       <br />
+       <li><a data-action="jump-section" id="link4" href="#section4" class="btn btn-learn" >Grasslands<span class="arrow">❯</span></a></li>
+       <br />
+       <li><a data-action="jump-section" id="link5" href="#section5" class="btn btn-learn">Coast<span class="arrow">❯</span></a></li>
+      </ul>
     </div>
+    <div class="overlapping-box-left2">
+      <h4>River Habitat</h4>
+      <div class="text">
+      California rivers are extremely important to the biodiversity of the environment.
+      <br />
+      They contribute greatly to the global steelhead, salmon and other fish specie populations since these rivers are used for spawning.
+      <br />These rivers also deliver precious sediment and nutrients downstream to trees and plants that need them to thrive. 
+      <br />The river is a vital part of the entire ecosystem from mammals, fish to birds and insects.
+
    </section>
    <section id="section4" class="full-height full-background">
     <div class="nav">
-      <h3 id="cta">Welcome to the Grassland</h3>
+      <h3 class="grass" id="cta">Welcome to the Grassland</h3>
+      <ul>
        <a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a>
        <br />
+       <li class="active"><a data-action="jump-section" id="link2" href="#section2" class="btn">Forest<span class="arrow">❯</span></a></li>
+       <br />
+       <li><a data-action="jump-section" id="link3" href="#section3" class="btn btn-learn">River<span class="arrow">❯</span></a></li>
+       <br />
+       <li><a data-action="jump-section" id="link5" href="#section5" class="btn btn-learn">Coast<span class="arrow">❯</span></a></li>
+       <br />
+     </ul>
+     
     </div>
    </section>
    <section id="section5" class="full-height full-background">
     <div class="nav">
       <h3 id="cta">Welcome to the Coast</h3>
-       <a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a>
+      <ul>
+       <li><a href="#home" class="btn" data-action="jump-section">Home<span class="arrow">❯</span></a></li>
        <br />
+       <li class="active"><a data-action="jump-section" id="link2" href="#section2" class="btn" >Forest<span class="arrow" >❯</span></a></li>
+       <br />
+       <li><a data-action="jump-section" id="link4" href="#section4" class="btn btn-learn" >Grasslands<span class="arrow" >❯</span></a></li>
+       <br />
+       <li><a data-action="jump-section" id="link3" href="#section3" class="btn btn-learn" >River<span class="arrow" >❯</span></a></li>
+       <br />
+      </ul>
     </div>
    </section>
+  </div>
   </body>
    <script src="scripts/jquery-3.2.1.min.js"></script>
    <script src="scripts/final_project.js"></script>
