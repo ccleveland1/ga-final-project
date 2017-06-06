@@ -1,3 +1,4 @@
+
 .logo{
   font-size: 48px;
   font-weight: lighter;
@@ -52,10 +53,16 @@ ul li{
 .project-container section {
   background-attachment: fixed;
   background-size: cover;
+  height: 500px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+  -webkit-perspective-origin-x: 100%;
+  perspective-origin-x: 100%;
 }
-#section1{
-  background-image: url("../images/home.jpg");
-}
+
 #section2{
   background-image: url("../images/forest.jpg");
 }
@@ -155,6 +162,41 @@ ul li{
   background-color: salmon;
   background-color: desaturate(darken(salmon,5%),5%);
 }
+#footer{
+  height: 50px;
+}
+.social-media-links{
+  text-align: center;
+  float: center;
+  padding-right:15px;
+}
+.fa{
+  padding:20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px; 
+}
+.fa:hover{
+  opacity: 1.0;
+}
+.fa-facebook{
+  opacity: 1.0;
+}
+.fa.twitter{
+  background: #55ACEE;
+  color: white;         
+}
+.fa-linkedin{
+  background: #007bb5
+  color: white;
+}
+.fa-instagram{
+  background: #125688
+  color: white;
+}
+
 button::-moz-focus-inner {
     border: none;
 }

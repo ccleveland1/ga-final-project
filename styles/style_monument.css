@@ -1,0 +1,323 @@
+Base Styles
+------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #44545E;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: 300px;
+}
+.img2
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+p {
+  font-family: 'Lato', sans-serif;
+  text-transform: none;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 37.5px;
+  letter-spacing: 12px;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 45px;
+  font-size: 37.5px;
+  color: grey;
+}
+
+h3 {
+  margin-bottom: 45px;
+}
+
+a {
+  text-decoration: none;
+  color: #7B98AA;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+  color: #44545E;
+}
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+section {
+  padding: 105px 30px;
+}
+
+.wrap {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.callout {
+  background-color: #CFF2F6;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/forest4.jpg');
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-container section {
+  background-attachment: fixed;
+  background-size: cover;
+}
+.full-height{
+  height: 100vh;
+}
+.full-background{
+  background-size: cover;
+}
+#section2{
+  background-image: url("../images/home.jpg");  
+  background-size: cover;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+ul a {
+  text-transform: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 3px 60px;
+}
+
+nav a {
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  
+  display: inline-block;
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+/* Styles that will need to be overriden in media query */
+.hamburger {
+  display: none;
+  font-size: 20px;
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+h1 a,
+h1 a:hover,
+header h2 {
+  color: #fff;
+}
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+button {
+  cursor: pointer;
+  outline: 0;
+  border: 2px solid #44545E;
+  color: #44545E;
+  padding: 8px 25.5px;
+  background-color: transparent;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12.299px;
+  letter-spacing: 1.2px;
+  transition: all .3s ease-in-out;
+}
+
+button:hover {
+  background-color: #44545E;
+  color: white;
+  font-weight: 600;
+}
+.overlapping-box{
+  width: 65%;
+  height: 450px;
+  border: 1px solid grey;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+  display: inline-block;
+} 
+.content{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: grey;
+}
+.articles button {
+  margin-top: 30px;
+}
+
+/* ----------------------------------------
+Articles
+------------------------------------------- */
+article {
+  width: 32%;
+}
+
+/* ----------------------------------------
+About
+------------------------------------------- */
+
+.about h2 {
+  margin-bottom: 0;
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+  background-image: url("../images/forest3.jpg");
+  overflow: auto;
+}
+.social-links a{
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa{
+  padding:20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover{
+  opacity: 1.0;
+}
+.fa-facebook{
+  opacity: 1.0;
+}
+.fa.twitter{
+  background: #55ACEE;
+  color: white;         
+}
+.fa-linkedin{
+  background: #007bb5
+  color: white;
+}
+.fa-instagram{
+  background: #125688
+  color: white;
+}
+.copyright {
+  border-top: 2px solid #44545E;
+  padding: 15px 0 3px;
+
+}
+
+
+::-webkit-input-placeholder {
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+:-ms-input-placeholder {  
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600; 
+}
+
+
+/* ----------------------------------------
+Gallery
+------------------------------------------- */
+.image-wrapper {
+  width: 32%;
+}
+
+#contact {
+  padding-top: 24px;
+}
+
+@media screen and (max-width: 600px:) {
+  .gridwrapper {
+    width: 50%;
+  }
+}
+
+/* ----------------------------------------
