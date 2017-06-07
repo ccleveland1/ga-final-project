@@ -94,6 +94,17 @@ header {
   padding-top: 30px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url('../images/forest4.jpg');
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 {
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url('../images/about1.jpg');
   background-attachment: fixed;
   height: 100vh;
@@ -115,6 +126,41 @@ header {
   background-image: url("../images/forest.jpg");  
   background-size: cover;
 }
+#section4{
+  background-image: url("../images/forest.jpg");  
+  background-size: cover;
+}
+.section5 {
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/river4.jpg');
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section7{
+  background-image: url("../images/river_left.jpg");  
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+  display: inline-flex;
+  float: left;
+  
+}
+#section7_5{
+  background-image: url("../images/river_right.jpg");  
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+  display: inline-flex;
+  margin-left: 675px;
+  float: right;
+}
+
 
 nav {
   position: fixed;
@@ -192,7 +238,40 @@ button:hover {
   background: rgba(255,255,255,.8);
   box-shadow: 0 0 5px rgba(0, 0, 0, .75);
   display: inline-block;
+}
+.overlapping-box2{
+  width: 50%;
+  height: 400px;
+  border: 1px solid grey;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+  display: inline-block;
 } 
+.overlapping-box3{
+  width: 600px;
+  height: 400px;
+  border: 1px solid grey;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+  float: left;
+  margin-left: -690px; 
+} 
+.overlapping-box4{
+  width: 65%;
+  height: 450px;
+  border: 1px solid grey;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+  display: inline-block;
+}
+.overlapping-box5{
+  width: 38%;
+  height: 350px;
+  border: 1px solid grey;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+  display: inline-block;
+}  
 .content{
   font-size: 20px;
   font-family: sans-serif;
